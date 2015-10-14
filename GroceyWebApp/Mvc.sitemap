@@ -5,8 +5,9 @@
 
   <mvcSiteMapNode title="Home" controller="Home" action="Index">
     <mvcSiteMapNode title="Feature" controller="Home" action="About"/>
-    <mvcSiteMapNode title="Demo" controller="Home" action="About"/>
-    <mvcSiteMapNode title="SIGN IN" controller="Login" action="Index"/>
+    <mvcSiteMapNode title="Demo" controller="Home" action="Grocey"/>
+    <mvcSiteMapNode title="Register" controller="Home" action="Grocey"/>
+    <mvcSiteMapNode title="Login" controller="Home" action="Grocey"/>
   </mvcSiteMapNode>
   
 </mvcSiteMap>

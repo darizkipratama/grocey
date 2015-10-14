@@ -12,5 +12,10 @@ namespace GroceyWebApp.Controllers
         {
             return View();
         }
+
+        public ActionResult Grocey()
+        {
+            return View();
+        }
     }
 }

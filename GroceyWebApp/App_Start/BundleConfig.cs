@@ -28,7 +28,10 @@ namespace GroceyWebApp
             bundles.Add(new StyleBundle("~/Content/bootstrap").Include(
                 "~/Content/bootstrap.css",
                 "~/Content/bootstrap.css.map",
-                "~/Content/bootstrap-theme.css"));
+                "~/Content/bootstrap-theme.css",
+                "~/Content/bootstrap-flat.css"));
+
+            bundles.Add(new StyleBundle("~/Content/dashboard").Include("~/Content/Dashboard.css"));
 
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
                         "~/Content/themes/base/jquery.ui.core.css",
