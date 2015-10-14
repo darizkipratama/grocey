@@ -13,6 +13,8 @@ namespace GroceyWebApp.Models
         public string DetailName { get; set; }
         public int DetailQty { get; set; }
         public string DetailsUom { get; set; }
+        public bool ItemBought { get; set; }
+        public DateTime RowEdited { get; set; }
         public virtual MasterListModel parent { get; set; }
     }
 }
