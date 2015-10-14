@@ -12,14 +12,11 @@
         <div class="content-wrapper">
             <div class="float-left">
                 <p class="site-title">
-                    <a href="~/">ASP.NET Web API</a></p>
+                    <a href="~/">GROCEY</a></p>
             </div>
             <div class="float-right">
                 <nav>
-                    <ul id="menu">
-                        <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, null)</li>
-                        <li>@Html.ActionLink("API", "Index", "Help", new { area = "" }, null)</li>
-                    </ul>
+                    @Html.MvcSiteMap().Menu()
                 </nav>
             </div>
         </div>

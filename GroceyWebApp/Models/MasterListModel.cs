@@ -15,5 +15,6 @@ namespace GroceyWebApp.Models
         public byte[] RowVersion { get; set; }
         public DateTime CreatedDate { get; set; }
         public virtual ICollection<DetailListModel> Details { get; set; }
+        public virtual UserModel UserCreated { get; set; }
     }
 }

@@ -16,5 +16,6 @@ namespace GroceyWebApp.Models
         [Timestamp]
         public byte[] RowVersion { get; set; }
         public DateTime DateCreated { get; set; }
+        public virtual ICollection<MasterListModel> ListCreated { get; set; }
     }
 }

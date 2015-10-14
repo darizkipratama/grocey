@@ -19,6 +19,10 @@ namespace GroceyWebApp.Controllers
         private DataContext dbcontext = new DataContext();
         
         // GET api/values
+        /// <summary>
+        /// Return All list on Grocey
+        /// </summary>
+        /// <returns></returns>
         public string Get()
         {
             IList<GroceyMain> mainViewModel = new List<GroceyMain>();
@@ -69,5 +73,7 @@ namespace GroceyWebApp.Controllers
             
             return JsonConvert.SerializeObject(mainViewModel);
         }
+
+        
     }
 }
