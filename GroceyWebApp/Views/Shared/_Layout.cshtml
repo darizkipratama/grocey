@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/bootstrap")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
@@ -16,7 +17,7 @@
             </div>
             <div class="float-right">
                 <nav>
-                    @Html.MvcSiteMap().Menu()
+                    @Html.MvcSiteMap().Menu("BootstrapMenuHelperModel")
                 </nav>
             </div>
         </div>
