@@ -56,7 +56,7 @@ namespace GroceyWebApp.Controllers
         /// <summary>
         /// Return the Grocey List By part of the name
         /// </summary>
-        /// <param name="name"></param>
+        /// <param name="name">part of grocey title</param>
         /// <returns></returns>
         public string Get(string name)
         {
